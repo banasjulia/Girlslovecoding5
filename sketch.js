@@ -37,7 +37,7 @@ function draw() {
   // Input wyśrodkowany i mniejszy
   const inputW = 160;
   const inputH = 32;
-  const inputX = width/2 - inputW/2;
+  const inputX = width/2 - inputW/2 -2;
   const inputY = height/2 - inputH - 8;
   startInput.position(inputX, inputY);
   startInput.size(inputW, inputH);
@@ -81,8 +81,8 @@ function draw() {
 
 function mousePressed() {
   // Parametry przycisku jak w draw()
-  const inputW = 160;
-  const inputH = 32;
+  const inputW = 164;
+  const inputH = 30;
   const inputX = width/2 - inputW/2;
   const inputY = height/2 - inputH - 8;
   const btnW = inputW;
